@@ -6,6 +6,7 @@
         "array": "cpp",
         "ios": "cpp"
     },
+    
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -64,5 +65,6 @@
         "spwn": "spwn build",
         "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
         "gleam": "gleam run -m $fileNameWithoutExt"
-    }
+    },
+    "editor.formatOnSave": true
 }

@@ -1,3 +1,5 @@
 .DS_Store
 AOC_2025/*.txt
+AOC_2025/tempCodeRunnerFile.cpp
 Makefile
+AOC_2025/.vscode
