@@ -82,11 +82,12 @@ signed main(/*int argc, char **argv*/) {
     // for(auto i : joltage)cout<<i<<" ";
     // cout<<"\n";
     // cout<<req<<" "<<buttons.size()<<endl;
-    sort(buttons.begin(), buttons.end(),
-         [](const auto &a, const auto &b) { return a.size() > b.size(); });
+    /*sort(buttons.begin(), buttons.end(),
+         [](const auto &a, const auto &b) { return a.size() > b.size(); });*/
     int t = dp(0, 0, buttons, req);
-    // cout<<t<<"\n";
-    cnt += t;
+    // TODO: Linear Programming
+    //  cout<<t<<"\n";
+    /*cnt += t;
     int jolts = 0;
     for (const auto &v : buttons) {
       int m = 1e4;
@@ -102,7 +103,7 @@ signed main(/*int argc, char **argv*/) {
     for (auto i : joltage)
       jolts += i;
     // cout<<jolts<<"\n";
-    joltcnt += jolts;
+    joltcnt += jolts;*/
   }
   cout << cnt << "\n";
   cout << joltcnt << "\n";
